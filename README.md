@@ -1,2 +1,2 @@
-# reverse-input
-User inputs an integer and the program reverses the integer. Ex: input =123 > output =321
+# bootcamp-prework
+A few coding assignments to become introduced to the programming world!
