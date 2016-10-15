@@ -1,4 +1,4 @@
-using System;
+ using System;
 
 namespace PracticeProgramming1
 {
@@ -12,7 +12,7 @@ namespace PracticeProgramming1
 
             num = int.Parse(Console.ReadLine());
 
-            while(num !=0)
+            while(num !=0) //if the number "0" is entered the following math will not work//
             {
                 reverse = reverse * 10;
 
