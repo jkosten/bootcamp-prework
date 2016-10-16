@@ -10,9 +10,9 @@ namespace PracticeProgramming1
 
             Console.WriteLine("Please Enter a Number"); //the program will begin by asking the user to input a number//
 
-            num = int.Parse(Console.ReadLine());
+            num = int.Parse(Console.ReadLine()); //The user's input is categorized as a string and needs to be converted to a number//
 
-            while(num !=0) //if the number "0" is entered the following math will not work//
+            while(num !=0) //if the user enters the number "0" then following math will not execute properly//
             {
                 reverse = reverse * 10;
 
@@ -21,7 +21,8 @@ namespace PracticeProgramming1
                 num = num / 10;
             }
 
-            Console.WriteLine("The Reverse of the Number You Entered is : " + reverse); //the user's number is returned to them with the digits in reverse order//
+            Console.WriteLine("The Reverse of the Number You Entered is : " + reverse); /*the user's number from the input is
+            returned to them with the digits in reverse order*/
 
             Console.ReadLine();
 
